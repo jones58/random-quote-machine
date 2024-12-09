@@ -23,7 +23,7 @@ const quotes = [
   },
 ];
 
-const colors = ["#d4d4d4", "#b4b4b4", "#909090", "#636363", "#494848"];
+const colors = ["#746198", "#4781a7", "#589a5d", "#b3af38", "#b27d58"];
 function App() {
   const getNewQuote = () => {
     return quotes[Math.floor(Math.random() * quotes.length)];
