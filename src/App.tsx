@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { useState } from "react";
 
 const quotes = [
@@ -26,14 +24,14 @@ const quotes = [
 ];
 
 const colors = [
-  "#16a085",
-  "#27ae60",
-  "#2c3e50",
-  "#f39c12",
-  "#e74c3c",
-  "#9b59b6",
-  "#FB6964",
-  "#342224",
+  "#6B705C", // Muted Olive Green
+  "#B7B7A4", // Pale Taupe
+  "#A5A58D", // Warm Gray
+  "#CB997E", // Muted Peach
+  "#DDBEA9", // Soft Blush
+  "#FFE8D6", // Pale Cream
+  "#9CA3AF", // Muted Slate Gray
+  "#6C757D", // Muted Steel Gray
 ];
 
 function App() {
